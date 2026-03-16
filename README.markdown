@@ -31,6 +31,10 @@ Restart Redmine and have a fun!
 
 #### This fork:
 
+* Don't rely on "discovering" front-end framework used by Redmine, only plain JavaScript (hopefully no compatibility issues).
+
+#### lunakid fork:
+
 * Only external & attachment links will open in new windows.
 
 #### Changes in the old, original versions:
