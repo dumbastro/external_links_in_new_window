@@ -23,13 +23,13 @@ Note: this one is also incompatible with the original plugin: if both are instal
 Download the sources and put them into your Redmine `plugins` folder.
 
     $ cd {REDMINE_ROOT}
-    $ git clone git://github.com/lunakid/external_links_in_new_window.git plugins/external_links_in_new_window
+    $ git clone git://github.com/dumbastro/external_links_in_new_window.git plugins/external_links_in_new_window
 
 Restart Redmine and have a fun!
 
 ### Changelog:
 
-#### This fork:
+#### dumbastro fork:
 
 * Don't rely on "discovering" front-end framework used by Redmine, only plain JavaScript (hopefully no compatibility issues).
 
