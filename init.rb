@@ -1,6 +1,6 @@
 require 'redmine'
 
-require_dependency 'lib/external_links_in_new_window/view_layouts_base_html_head_hook'
+require_relative 'lib/external_links_in_new_window/view_layouts_base_html_head_hook'
 
 Redmine::Plugin.register :external_links_in_new_window do
   name 'External Links In New Window'
