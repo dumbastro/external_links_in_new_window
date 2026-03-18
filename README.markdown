@@ -11,9 +11,9 @@ No configuration, no DB dependency.
 
 ### Compatibility
 
-Tested with Redmine 2.3.1. and Redmine 4.0.3.
+Tested with Redmine 6.0.2.
 
-(The original one was also tested with Redmine 0.9.6, 1.0.5, 2.1.0, but this one changed a few things, so there may be problems on those old versions.)
+(The original one was also tested with Redmine 0.9.6, 1.0.5, 2.1.0, 2.3.1 and 4.0.3, but this one changed a few things, so there may be problems on those old versions.)
 
 Note: this one is also incompatible with the original plugin: if both are installed, only one will work. 
 (But they will not crash, as I changed the relevant identifiers to avoid collisions.)
@@ -32,6 +32,7 @@ Restart Redmine and have a fun!
 #### dumbastro fork:
 
 * Don't rely on "discovering" front-end framework used by Redmine, only plain JavaScript (hopefully no compatibility issues).
+* Update `init.rb` to use `require_relative` to load the dependency file (Redmine hook).
 
 #### lunakid fork:
 
